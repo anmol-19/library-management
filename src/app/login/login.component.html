@@ -1,0 +1,28 @@
+<div class="login-container">
+    <div class="heading">
+        <p>Library Management System</p>
+    </div>
+    <div class="form-container">
+        <div class="signin">
+            <p>Sign In</p>
+            <label for="uname">Username</label>
+            <input type="text" name="username" id="uName" placeholder="Enter Username" [(ngModel)]="username">
+            <label for="pward">Password</label>
+            <input type="password" id='pWard' name="password" placeholder="Enter Password" [(ngModel)]="password">
+            <button class="button" (click)="onLogin()" >Login</button>
+            <div class="error">
+                <p>{{errMsg}}</p>
+            </div>
+        </div>
+        <div class="signup">
+            <p>Sign Up</p>
+            <label for="uname">Username</label>
+            <input type="text" name="username" placeholder="Enter Username">
+            <label for="pward">Password</label>
+            <input type="password" name="password" placeholder="Enter Password">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter Email">
+            <button class="button" >Sign Up</button>
+        </div>
+    </div>
+</div>

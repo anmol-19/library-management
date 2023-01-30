@@ -1,0 +1,18 @@
+<h3 class="title">Add Books</h3>
+<div class="content">
+    <form class=" form" #basicForm="ngForm" (submit)="getData(basicForm.value)">
+      <div class="contain">
+            <label for="bName">Book Name</label> <br>
+            <input type="text" name="bName" placeholder="Enter book Name" ngModel><br><br>
+      </div>
+       <div class="contain">
+            <label for="aName">Author Name</label><br>
+            <input type="text" name="aName" placeholder="Enter Author Name" ngModel><br><br>
+       </div>
+        <div class="contain">
+            <label for="pirce">Price</label><br>
+            <input type="text" name="price" placeholder="Enter price" ngModel><br><br>
+        </div>
+        <button>Add</button>
+    </form>
+</div>

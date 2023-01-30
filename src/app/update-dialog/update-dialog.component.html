@@ -1,0 +1,19 @@
+<h3 class="title">Update Details</h3>
+<div class="line"></div>
+<div class="content">
+    <form class="form" #basicForm="ngForm" (ngSubmit)="getUpdateData(basicForm.value)">
+        <div class="contain">
+            <label class="lable" for="bName">Book Name</label><br>
+            <input class="input" type="text" name="bName" placeholder="Update Book Name" ngModel><br><br>
+        </div>
+        <div class="contain">
+            <label class="lable" for="aName">Author Name</label><br>
+            <input class="input" type="text" name="aName" placeholder="Update Author Name" ngModel><br><br>
+        </div>
+        <div class="contain">
+            <label class="lable" for="aName">Price</label><br>
+            <input class="input" type="text" name="price" placeholder="Update Price" ngModel><br><br>
+        </div>
+        <button class="btn-form" type="submit ">Update</button>
+    </form>
+</div>

@@ -1,0 +1,30 @@
+<div class="header-container">
+    <div class="heading">
+        <div class="name">
+            <div class="icon">
+                <span class="material-icons">local_library</span>
+            </div>
+            <div class="header">Online Library Management System</div>
+        </div>
+        <div class="logout" (click)="logout()">LOG ME OUT</div>
+    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse box" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active tools">
+                        <a class="nav-link" (click)="loadHome()">DASHBOARD</a>
+                    </li>
+                    <li class="nav-item active tools">
+                        <a class="nav-link" href="#">CATEGORIES</a>
+                    </li>
+                    <li class="nav-item active tools">
+                        <a class="nav-link" href="#">AUTHORS</a>
+                    </li>
+                    <li class="nav-item active tools">
+                        <a class="nav-link" (click)="loadBook()">BOOKS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hrule"></div>
+</div>

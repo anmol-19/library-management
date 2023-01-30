@@ -1,0 +1,164 @@
+.home-container{
+    width:100%;
+    height:calc(100vh - 120px);
+//  border: px solid red;;
+    .header{
+        height:90px;
+        width:80%;
+        border-bottom: 2px solid rgb(218, 213, 213);
+        margin-left: 120px;
+        display:flex;
+        align-items: center;
+        font-weight:600;
+        color:rgb(49, 47, 47);
+        padding-left: 10px;
+    }
+    .box{
+        height:400px;
+        width:80%;
+        margin-left:140px;
+        //border:1px solid black;
+        display:flex;
+        padding: 20px;
+        flex-wrap: wrap;
+
+        .books{
+            height:160px;
+            width:240px;
+            border:1px solid rgba(24, 124, 24, 0.418);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+            .icon{
+                height:70px;
+                width:200px;
+                span{
+                    height: 100px;
+                }
+            }
+            .count{
+                color:rgba(24, 124, 24, 0.685);
+                font-size: 30px;
+            }
+            .title{
+                color:rgba(24, 124, 24, 0.685);
+                font-weight: 500;
+            }
+        }
+        .books1{
+            height:160px;
+            width:240px;
+            border:1px solid rgba(63, 121, 175, 0.582);;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+            .icon{
+                height:70px;
+                width:200px;
+               
+            }
+            .count{
+                color:rgb(63, 121, 175);
+                font-size: 30px;
+            }
+            .title{
+                color:rgba(63, 121, 175, 0.836);
+                font-weight: 500;
+            }
+        }
+
+        .books:hover{
+            color:white;
+            background-color: rgba(15, 230, 79, 0.199);
+        }
+
+        .books2{
+            height:160px;
+            width:240px;
+            border:1px solid rgba(165, 42, 42, 0.479);;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+            .icon{
+                height:70px;
+                width:200px;
+               
+            }
+            .count{
+                color:rgba(165, 42, 42, 0.938);
+                font-size: 30px;
+            }
+            .title{
+                color:rgba(165, 42, 42, 0.856);
+                font-weight: 500;
+            }
+        }
+
+        .books3{
+            height:160px;
+            width:240px;
+            border:1px solid rgba(211, 57, 57, 0.575);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+            .icon{
+                height:70px;
+                width:200px;
+               
+            }
+            .count{
+                color:rgb(211, 35, 35);
+                font-size: 30px;
+            }
+            .title{
+                color:rgba(211, 57, 57, 0.938);
+                font-weight: 500;
+            }
+        }
+
+        .books4{
+            height:160px;
+            width:240px;
+            border:1px solid rgba(24, 124, 24, 0.418);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+            .icon{
+                height:70px;
+                width:200px;
+                span{
+                    height: 100px;
+                }
+            }
+            .count{
+                color:rgba(24, 124, 24, 0.685);
+                font-size: 30px;
+            }
+            .title{
+                color:rgba(24, 124, 24, 0.685);
+                font-weight: 500;
+            }
+        }
+        
+    }
+}
